@@ -2,42 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://coldfront.readthedocs.io/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-08-04</lastmod>
     </url>
     <url>
          <loc>https://coldfront.readthedocs.io/about/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-08-04</lastmod>
     </url>
     <url>
          <loc>https://coldfront.readthedocs.io/community/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-08-04</lastmod>
     </url>
     <url>
          <loc>https://coldfront.readthedocs.io/docs/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-08-04</lastmod>
     </url>
     <url>
          <loc>https://coldfront.readthedocs.io/news/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-08-04</lastmod>
     </url>
     <url>
          <loc>https://coldfront.readthedocs.io/news/2025/05/13/may-community-conversation/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-08-04</lastmod>
     </url>
     <url>
          <loc>https://coldfront.readthedocs.io/news/2025/06/10/june-community-conversation/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-08-04</lastmod>
     </url>
     <url>
          <loc>https://coldfront.readthedocs.io/news/2025/07/08/july-community-conversation/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-08-04</lastmod>
+    </url>
+    <url>
+         <loc>https://coldfront.readthedocs.io/news/2025/07/23/pearc25-bof/</loc>
+         <lastmod>2025-08-04</lastmod>
     </url>
     <url>
          <loc>https://coldfront.readthedocs.io/news/archive/2025/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-08-04</lastmod>
+    </url>
+    <url>
+         <loc>https://coldfront.readthedocs.io/news/category/pearc/</loc>
+         <lastmod>2025-08-04</lastmod>
     </url>
     <url>
          <loc>https://coldfront.readthedocs.io/news/category/community-meeting/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-08-04</lastmod>
     </url>
 </urlset>
