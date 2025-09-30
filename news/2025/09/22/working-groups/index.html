@@ -10,13 +10,11 @@
       
       
       
-        <link rel="canonical" href="https://coldfront.readthedocs.io/news/2025/09/05/nsf-pose-grant-announcement/">
+        <link rel="canonical" href="https://coldfront.readthedocs.io/news/2025/09/22/working-groups/">
       
       
-        <link rel="prev" href="../../04/september-2025-community-conversation/">
+        <link rel="prev" href="../../16/october-2025-community-conversation/">
       
-      
-        <link rel="next" href="../../16/october-2025-community-conversation/">
       
       
       <link rel="icon" href="../../../../../assets/favicon.png">
@@ -24,7 +22,7 @@
     
     
       
-        <title>NSF POSE Grant Announcement - ColdFront</title>
+        <title>Working Groups - ColdFront</title>
       
     
     
@@ -78,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#coldfront-project-awarded-nsf-pose-funding" class="md-skip">
+        <a href="#coldfront-community-working-groups" class="md-skip">
           Skip to content
         </a>
       
@@ -111,7 +109,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              NSF POSE Grant Announcement
+              Working Groups
             
           </span>
         </div>
@@ -846,7 +844,7 @@
                     <li class="md-nav__item">
                       <div class="md-nav__link">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V8h14m-3-7v2H8V1H6v2H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-1V1m-1 11h-5v5h5z"/></svg>
-                        <time datetime="2025-09-05 00:00:00+00:00" class="md-ellipsis">September 5, 2025</time>
+                        <time datetime="2025-09-22 00:00:00+00:00" class="md-ellipsis">September 22, 2025</time>
                       </div>
                     </li>
                     
@@ -868,7 +866,7 @@
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8m0-18a10 10 0 0 1 10 10 10 10 0 0 1-10 10C6.47 22 2 17.5 2 12A10 10 0 0 1 12 2m.5 5v5.25l4.5 2.67-.75 1.23L11 13V7z"/></svg>
                           <span class="md-ellipsis">
                             
-                              1 min read
+                              2 min read
                             
                           </span>
                         </div>
@@ -903,11 +901,23 @@
 
 
 
-<div><h1 id="coldfront-project-awarded-nsf-pose-funding">ColdFront Project Awarded NSF POSE Funding</h1>
-<p>We're pleased to announce the successful awarding of funding for ColdFront in the <a href="https://www.nsf.gov/funding/opportunities/pose-pathways-enable-open-source-ecosystems">NSF Pathways to Open Source Ecosystems (POSE)</a> program!  The project team consists of the University at Buffalo Center for Computational Research, Harvard University, and Indiana University. </p>
+<div><h1 id="coldfront-community-working-groups">ColdFront Community Working Groups</h1>
+<p>Through the next year, we will be working on tasks in the <a href="../../05/nsf-pose-grant-announcement/">NSF POSE phase I project</a> that will research and begin planning things like governance models and sustainability for the ColdFront project.  However, we do not wish to delay development progress nor discourage participation from the community.  </p>
 <!-- more -->
 
-<p>For this Phase 1 program, the project team will work with an experience OSE mentor to research governance methods, community engagement, and sustainability options.  We gratefully appreciate the letters of support received for this proposal from the following organizations:  New Zealand eScience Infrastructure, Northwestern University, Southern Methodist University, University of Oregon, and Washington University (St Louis).  We look forward to working with you and the ColdFront community over the next year to take this project to the next level!  Interested in helping out?  Fill out <a href="https://forms.gle/CSzEjYD3H7wBzgFZ9">this form</a> to indicate your interests.</p></div>
+<p>To continue the forward momentum of ColdFront development and act on the community's interest in forming working groups, we will use the following process in the near term:</p>
+<p>An initial set of working groups will be formed to begin discussions on governance and the ColdFront "core" architecture.  Members of the UB team will sit in on these 3 groups to provide guidance to the working group members.  Lead or co-leads for these working groups were selected from a list compiled when community members indicated their interest in serving.  </p>
+<p>The goal for future development of ColdFront will be to extract features from Core, whenever possible, that can be moved into a plug-in.  Plug-ins should be developed to be installed as standalone package add-ons to ColdFront.  For example, this is demonstrated in the new <a href="https://github.com/coldfront/coldfront-slurm-plugin">Slurm REST API Plug-in</a>.  For anyone interested in collaborating on a specific plug-in, UB CCR maintainers will create a new repository in <a href="https://github.com/coldfront">https://github.com/coldfront</a> and give the WG lead(s) commit access to that repository.  Like the Slurm REST API plug-in, this will allow the developer(s) to work independently of the development going on in the ColdFront core repository.  Where features can’t be removed from Core, discussions will be had in the Core Architecture working group and, in the near term, final decisions will be the responsibility of the CCR team.  Eventually, these types of decisions will be decided based on the governance plan adopted by the project.</p>
+<p><strong>Initial working groups:</strong><br>
+<em>Governance:</em> co-leads Raminder S (Harvard) and Lorenzo B (Unimore)<br>
+<em>Documentation:</em> lead Dori S (UB)<br>
+<em>Core Architecture:</em> co-leads John L (SMU) and Jay M (Tufts)<br>
+*code standards/conventions will be wrapped into discussions in each of these groups  </p>
+<p><strong>Plug-ins:</strong>  <br>
+<em>Storage:</em> co-leads David S (Cardiff) and Chris B (Tufts) - this may lead to a generic storage plug-in or break off into separate plug-ins for specific vendor storage technologies<br>
+<em>Slurm "legacy" plug-in:</em> Cecilia L (RIT) (interested in development but maybe not leading the WG)<br>
+<em>LDAP:</em> Several interested potential developers, no WG leads at this time.  <a href="https://github.com/ubccr/coldfront/tree/main?tab=readme-ov-file#contact-information">Contact the ColdFront admins</a> if you're interested in getting this group started.  </p>
+<p>To indiciate your interest in participating in and/or leading a working group, please fill out <a href="https://forms.gle/CSzEjYD3H7wBzgFZ9">this form</a> and we'll put you in contact with the working group.  </p></div>
 
 
 
