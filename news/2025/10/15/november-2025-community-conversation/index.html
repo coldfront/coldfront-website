@@ -13,8 +13,10 @@
         <link rel="canonical" href="https://coldfront.readthedocs.io/news/2025/10/15/november-2025-community-conversation/">
       
       
-        <link rel="prev" href="../supercomputing25-conference/">
+        <link rel="prev" href="../../14/october-2025-community-conversation/">
       
+      
+        <link rel="next" href="../../../11/17/december-2025-community-conversation/">
       
       
       <link rel="icon" href="../../../../../assets/favicon.png">
@@ -866,7 +868,7 @@
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8m0-18a10 10 0 0 1 10 10 10 10 0 0 1-10 10C6.47 22 2 17.5 2 12A10 10 0 0 1 12 2m.5 5v5.25l4.5 2.67-.75 1.23L11 13V7z"/></svg>
                           <span class="md-ellipsis">
                             
-                              1 min read
+                              3 min read
                             
                           </span>
                         </div>
@@ -888,6 +890,101 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#quick-recap" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quick recap
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Summary">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#coldfront-updates-and-conference-preparations" class="md-nav__link">
+    <span class="md-ellipsis">
+      ColdFront Updates and Conference Preparations
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#coldfront-and-slurm-synchronization" class="md-nav__link">
+    <span class="md-ellipsis">
+      ColdFront and Slurm Synchronization
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-provisioning-and-storage-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      User Provisioning and Storage Management
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#account-provisioning-automation-progress" class="md-nav__link">
+    <span class="md-ellipsis">
+      Account Provisioning Automation Progress
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-archiving-and-storage-practices" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data Archiving and Storage Practices
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#coldfront-archive-functionality-discussion" class="md-nav__link">
+    <span class="md-ellipsis">
+      ColdFront Archive Functionality Discussion
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-status-management-updates" class="md-nav__link">
+    <span class="md-ellipsis">
+      User Status Management Updates
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
           
         </div>
@@ -902,10 +999,27 @@
 
 
 <div><h1 id="november-community-conversation">November Community Conversation</h1>
-<p>This month's meeting will be rescheduled due to the Veteran's Day holiday in the US.  It will be held Wednesday, November 12, 2025 at 12:00pm ET.  Monthly community meetings are convened over Zoom to discuss topics of interest.  Usually there are no planned agendas and community members bring ideas and questions to share. </p>
+<p>This month's meeting was held Wednesday, November 12, 2025 at 12:00pm ET.</p>
 <!-- more -->
 
-<p>Register <a href="https://hpctoolset.slack.com/archives/C017A40A4D6/p1746475923559429">here</a> to get the Zoom link</p></div>
+<h2 id="quick-recap">Quick recap</h2>
+<p>The meeting began with administrative updates regarding calendar notices and conference preparations, including repository reorganization and promotional materials for an upcoming supercomputing conference. The team discussed technical aspects of ColdFront and Slurm integration, including user synchronization processes and potential improvements to the Slurm plugin for better REST API integration. The conversation concluded with discussions about user provisioning automation, data archiving practices, and user status management changes, with particular focus on how these systems handle user accounts and storage allocations.</p>
+<p><div class="video-container"><iframe src="https://www.youtube.com/embed/a3NtFQFDPwU?si=SQ4d1_2nr2LWGqDH" style="position:relative;width:100%;height:22.172vw" frameborder="0" allowfullscreen alt="type:video"></iframe></div></p>
+<h2 id="summary">Summary</h2>
+<h3 id="coldfront-updates-and-conference-preparations">ColdFront Updates and Conference Preparations</h3>
+<p>Dori announced that the ColdFront repository had been moved to a separate organization and provided updates on the upcoming supercomputing conference, including the availability of ColdFront stickers and a talk by Anton at the VAST booth. Dori also mentioned that ColdFront flyers and posters with QR codes would be available at the Indiana University and Massachusetts Green High Performance Computing Consortium booths. Anton mentioned that he would review recent pull requests before the conference, and Chris inquired about implementing Slurm associations on a cluster using ColdFront, prompting a discussion about potential methods for updating Slurm configurations.  </p>
+<h3 id="coldfront-and-slurm-synchronization">ColdFront and Slurm Synchronization</h3>
+<p>The team discussed the synchronization between ColdFront and Slurm, where Dori explained that their system uses a daily cron script to sync user accounts and allocations between the two systems. Chris inquired about handling user removals, and Dori confirmed that the sync process removes users from Slurm allocations when they are removed in ColdFront. Andrew mentioned that Claire from Harvard is leading efforts to develop a new Slurm plugin with improved REST API integration, which will allow for more robust and real-time control over user allocations. The team also discussed the need for automations with Slurm, GPFS, and LDAP, with Chris suggesting a 24-hour schedule for initial implementation.  </p>
+<h3 id="user-provisioning-and-storage-management">User Provisioning and Storage Management</h3>
+<p>John explained the process of provisioning new users and storage allocations, which involves writing a text file to a staging directory that gets picked up by a service. The provisioning process takes 2-3 minutes and includes tasks like creating home directories and syncing accounts across campus AD and an ADLDS instance. John also described how they monitor Slurm accounts every 20 minutes using a Python script and how they send emails for various purposes, including warnings to users approaching their quotas.  </p>
+<h3 id="account-provisioning-automation-progress">Account Provisioning Automation Progress</h3>
+<p>John explained that their organization has implemented automation and triggers for account provisioning, which has significantly reduced manual work despite limited system administration staffing. They noted that while most provisioning processes are now automated, some tasks like data deletion remain manual due to concerns about accidental data loss and user expectations regarding data retention. The team has been using ColdFront for about a year and found it essential for maintaining HPC service during staffing challenges, though they still handle complex account status changes through manual review processes involving department chairs and deans.  </p>
+<h3 id="data-archiving-and-storage-practices">Data Archiving and Storage Practices</h3>
+<p>The team discussed their data archiving practices, noting that while they don't delete data or charge for storage, they manually remove file permissions when users leave. John explained that while they don't have a formal policy for data retention, they handle requests through help tickets or direct communication with system admins. The team acknowledged they're unique in not having any chargebacks or financial transactions associated with data storage.  </p>
+<h3 id="coldfront-archive-functionality-discussion">ColdFront Archive Functionality Discussion</h3>
+<p>Chris discussed implementing an archive button for staff-only use to track completed projects. John suggested renaming the functionality to avoid user confusion about data archiving, as many users mistakenly believe ColdFront is an HPC system. Dori inquired about changes to ColdFront's allocation user status system, particularly regarding how new users are added and approved.  </p>
+<h3 id="user-status-management-updates">User Status Management Updates</h3>
+<p>The team discussed changes to user status management, with Chris explaining he added a pending status for allocation users that becomes active once they are part of the Unix group and SRM account. Chris offered to share a detailed diagram of request statuses and workflows, and Dori mentioned ongoing discussions about status management in the GitHub repository that need review and refactoring. The team also briefly discussed the EULA attribute functionality, which Chris noted is currently used as a resource attribute for basic requests with an implied agreement through the submit form.  </p></div>
 
 
 
