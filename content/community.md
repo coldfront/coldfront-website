@@ -28,4 +28,4 @@ integrating with 3rd party systems. Read more about our guidlines
 
 Join our hpc-toolset slack channel: 
 
-[:fontawesome-brands-slack:{ .lg .middle } Join Now](#){ .md-button .md-button--primary }
+[:fontawesome-brands-slack:{ .lg .middle } Join Now](https://join.slack.com/t/hpctoolset/shared_invite/zt-fyhvv8j4-4KFl64etmDWRS7pATjYXPw){ .md-button .md-button--primary }
