@@ -21,6 +21,6 @@ The interviews are expected to take approximately 30 minutes and will need to be
 
 We'd like to interview a broad range of people - support staff, developers, center administrators, end users - so please help us share the word.  We can interview multiple people from the same organization if you have different roles.  Use [this link](https://outlook.office.com/bookwithme/user/8bde24c7db874e3e91b377e52d24249e@buffalo.edu/meetingtype/yPg_H94tQEah-fGzwtS8YQ2?bookingcode=b8e90b5e-de00-40e7-bec0-a3f18890d46f&anonymous&ismsaljsauthenabled&ep=mlink) to schedule a meeting with us.  
 
-We realize many of these time slots are not conducive for those around the world.  We'd love to talk to you and will do our best to accomodate your time zone.  Please [contact the ColdFront admins](https://github.com/coldfront/coldfront?tab=readme-ov-file#contact-information) to request an alternate meeting time.  
+We realize many of these time slots are not conducive for those around the world.  We'd love to talk to you and will do our best to accommodate your time zone.  Please [contact the ColdFront admins](https://github.com/coldfront/coldfront?tab=readme-ov-file#contact-information) to request an alternate meeting time.  
 
 Thank you so much for your assistance!
