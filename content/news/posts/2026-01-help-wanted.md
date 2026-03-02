@@ -19,8 +19,6 @@ The interviews are expected to take approximately 30 minutes and will need to be
 •	those who you might know of that are not aware of ColdFront but are using something else for managing their resources  
 •	folks not just from HPC centers but anyone that might need to manage access to resources (shared scientific instruments, for example)  
 
-We'd like to interview a broad range of people - support staff, developers, center administrators, end users - so please help us share the word.  We can interview multiple people from the same organization if you have different roles.  Use [this link](https://outlook.office.com/bookwithme/user/8bde24c7db874e3e91b377e52d24249e@buffalo.edu/meetingtype/yPg_H94tQEah-fGzwtS8YQ2?bookingcode=b8e90b5e-de00-40e7-bec0-a3f18890d46f&anonymous&ismsaljsauthenabled&ep=mlink) to schedule a meeting with us.  
+We'd like to interview a broad range of people - support staff, developers, center administrators, end users - so please help us share the word.  We can interview multiple people from the same organization if you have different roles.    
 
-We realize many of these time slots are not conducive for those around the world.  We'd love to talk to you and will do our best to accommodate your time zone.  Please [contact the ColdFront admins](https://github.com/coldfront/coldfront?tab=readme-ov-file#contact-information) to request an alternate meeting time.  
-
-Thank you so much for your assistance!
+We've closed this call for assistance as we've completed our interview process.  Thank you so much for your assistance!
