@@ -26,6 +26,7 @@ Help make ColdFront the premier allocations system for research computing. There
 
 <br>
 
+<br>  
 # :fontawesome-brands-slack:{ .lg .middle } Slack Channel
 
 Join the coldfront channel in the hpc-toolset slack organization: 
@@ -33,7 +34,6 @@ Join the coldfront channel in the hpc-toolset slack organization:
 [:fontawesome-brands-slack:{ .lg .middle } Join Now](https://join.slack.com/t/hpctoolset/shared_invite/zt-fyhvv8j4-4KFl64etmDWRS7pATjYXPw){ .md-button .md-button--primary }  
 
 <br>  
-
 # :fontawesome-solid-envelope:{ .lg .middle } Email Lists  
 
 We have two mailing lists available for the ColdFront community. To join either, send an email to **listserv@listserv.buffalo.edu** with no subject, and the appropriate command in the body of the message, making sure to replace first_name last_name with your information.  
