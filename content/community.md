@@ -11,6 +11,7 @@ Join us for monthly virtual meetings where members of the community come togethe
 
 - When: The 2nd Tuesday of each month at 11:30am ET / 10:30am CT / 8:30am PT / 3:30pm GMT
 - Where: Zoom [register to receive the Zoom link](https://buffalo.zoom.us/meeting/register/4rY9XTVmRxG6LMi-L_a8jw)  
+- Recordings are posted on [YouTube](https://www.youtube.com/playlist?list=PL4Z5ac7PLRb1MNaBZz3NYiSNjqEYDJmz1)  
 
 <br>  
 # :fontawesome-solid-code:{ .lg .middle } Contribute to the Project
