@@ -24,7 +24,7 @@ Help make ColdFront the premier allocations system for research computing. There
 # :fontawesome-solid-users-viewfinder:{ .lg .middle } Working Groups  
 [Working groups](news/posts/2025-09-working-groups.md) are small subsets of the ColdFront community that focus on specific topics and areas of interest.  Active participation by the community in these groups will help to ensure the growth and sustainability of the project.  All members of the community are welcome to join any group that interests them and great new groups. Refer to the [initial announcement](news/posts/2025-09-working-groups.md) for more details and contact information.  
 
-<br>  
+<br>
 
 # :fontawesome-brands-slack:{ .lg .middle } Slack Channel
 
