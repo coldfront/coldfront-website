@@ -16,6 +16,8 @@
         <link rel="prev" href="../../../02/28/march-2026-community-conversation/">
       
       
+        <link rel="next" href="../../../04/14/may-2026-community-conversation/">
+      
       
       <link rel="icon" href="../../../../../assets/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
@@ -893,7 +895,7 @@
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8m0-18a10 10 0 0 1 10 10 10 10 0 0 1-10 10C6.47 22 2 17.5 2 12A10 10 0 0 1 12 2m.5 5v5.25l4.5 2.67-.75 1.23L11 13V7z"/></svg>
                           <span class="md-ellipsis">
                             
-                              1 min read
+                              4 min read
                             
                           </span>
                         </div>
@@ -915,6 +917,101 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#quick-recap" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quick recap
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Summary">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#coldfront-community-conversations-april-update" class="md-nav__link">
+    <span class="md-ellipsis">
+      ColdFront Community Conversations April Update
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#redcap-to-coldfront-migration-update" class="md-nav__link">
+    <span class="md-ellipsis">
+      RedCap to ColdFront Migration Update
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#system-access-and-permissions-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      System Access and Permissions Overview
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#django-signals-and-ansible-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Django Signals and Ansible Integration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#coldfront-core-updates-discussion" class="md-nav__link">
+    <span class="md-ellipsis">
+      ColdFront Core Updates Discussion
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#coldfront-system-architecture-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      ColdFront System Architecture Overview
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pearc-documentation-and-events-update" class="md-nav__link">
+    <span class="md-ellipsis">
+      PEARC Documentation and Events Update
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
           
         </div>
@@ -929,10 +1026,27 @@
 
 
 <div><h1 id="april-community-conversation">April Community Conversation</h1>
-<p>This meeting will be held on Tuesday, April 14, 2026 at 11:30am ET  / 10:30am CT / 8:30am PT / 3:30pm GMT.  Monthly community meetings are convened over Zoom to discuss topics of interest.  Community members are encouraged to bring questions and ideas to share. This month we will have a presentation from the University of British Columbia and how they customized ColdFront.  </p>
+<p>This meeting was held on Tuesday, April 14, 2026 at 11:30am ET  / 10:30am CT / 8:30am PT / 3:30pm GMT.  Monthly community meetings are convened over Zoom to discuss topics of interest.  Community members are encouraged to bring questions and ideas to share. This month we had a presentation from the University of British Columbia and how they customized ColdFront.  </p>
 <!-- more -->
 
-<p>To register for the Zoom link, visit <a href="https://buffalo.zoom.us/meeting/register/4rY9XTVmRxG6LMi-L_a8jw">this page</a>.  You'll only need to fill this out once.  Then you'll receive an email with the link used for all meetings.</p></div>
+<h2 id="quick-recap">Quick recap</h2>
+<p>The April edition of ColdFront Community Conversations featured Jacob Boschee from the University of British Columbia presenting their team's implementation and customization of ColdFront as a replacement for their previous REDCap-based allocation system. Jacob Boschee explained how they developed plugins including Shibboleth single sign-on integration, request forms, and "BombCyclone" - an event-driven Ansible endpoint that automates system configuration changes. The team faced challenges with data migration from their 6-year REDCap system and implementing role-based access control, but successfully replicated the researcher experience while adding automation to reduce manual onboarding steps. The discussion included questions about their source of truth for user information, Django signal implementation, and handling potential system failures. Dori also announced upcoming plans for a ColdFront tutorial at PEARC and a potential Birds of a Feather session.</p>
+<p><div class="video-container"><iframe src="https://www.youtube.com/embed/sXutL6jgXNs?si=LkFigDBXPInmK6V5" style="position:relative;width:100%;height:22.172vw" frameborder="0" allowfullscreen alt="type:video"></iframe></div></p>
+<h2 id="summary">Summary</h2>
+<h3 id="coldfront-community-conversations-april-update">ColdFront Community Conversations April Update</h3>
+<p>Dori welcomed attendees to the April edition of ColdFront Community Conversations and introduced Jacob Boschee from the University of British Columbia, who would be presenting updates and customizations to ColdFront. Dori announced changes to email communication, including a new announcements list and a forum-style email list for community questions. The meeting was described as casual with no formal agenda, allowing for questions and discussions after Jacob Boschee's presentation.  </p>
+<h3 id="redcap-to-coldfront-migration-update">RedCap to ColdFront Migration Update</h3>
+<p>Jacob Boschee presented on the migration from their older allocation system using REDCap to ColdFront, highlighting the challenges and solutions implemented. The team developed plugins, including Shibboleth integration and a system called "Bomb Cyclone" to automate Ansible configurations, aiming to streamline onboarding processes and reduce manual work for the onboarding staff. Key challenges included data migration from REDCap and addressing access control levels in ColdFront, with plans to submit pull requests to improve the system and contribute to the main ColdFront project.  </p>
+<h3 id="system-access-and-permissions-overview">System Access and Permissions Overview</h3>
+<p>Jacob Boschee explained the sources of truth for their system, noting that Central University IT provides accounting information through Shibleth login, while ColdFront itself serves as the source of truth for allocation data. When asked about RBAC implementation, Jacob Boschee described how they created different access levels to allow onboarding staff to approve allocations and make modifications without full administrative access to ColdFront. The system was designed to distinguish between super users and support staff with more limited permissions.  </p>
+<h3 id="django-signals-and-ansible-integration">Django Signals and Ansible Integration</h3>
+<p>Jacob Boschee explained how Django signals work with their system, describing how the BombCyclone plugin listens for signals and creates JSON data packets that are sent to event-based Ansible endpoints to trigger playbook execution. Cecilia inquired about their use case for triggering Ansible playbooks from ColdFront, noting that their cluster uses LDAP as the primary source of truth for user information. Jacob Boschee clarified that while they use LDAP for user account information, they also use Ansible for additional system setup tasks including home directory creation, quota setup, and Slurm group membership when new allocations or users are added to the system.  </p>
+<h3 id="coldfront-core-updates-discussion">ColdFront Core Updates Discussion</h3>
+<p>Jacob Boschee explained that while they made some small changes to the ColdFront core, they haven't had to deal with extension issues since they're using the latest release version rather than the GitHub master. Jacob Boschee described their approach of keeping most code as separate plugins to minimize core modifications during updates, with only minor changes needed for email templates to provide additional data for researchers. The discussion then shifted to a question about Ansible, though the specific details about split brain situations or link issues were not addressed in the provided transcript segment.  </p>
+<h3 id="coldfront-system-architecture-overview">ColdFront System Architecture Overview</h3>
+<p>Jacob Boschee explained the system architecture for keeping ColdFront online, including the use of Ansible in a podband container with high assurance systems and QuoraSync for service restarts. He described their logging system for transaction monitoring and mentioned that while link issues are rare, they have encountered LDAP failures on the Ansible endpoint that cause onboarding problems. Dori noted that Jacob Boschee's team spent significant time preparing for ColdFront launch, focusing on user experience similarity and comprehensive documentation and training for researchers.  </p>
+<h3 id="pearc-documentation-and-events-update">PEARC Documentation and Events Update</h3>
+<p>Dori announced plans to start working on the documentation working group and shared updates about upcoming events at PEARC. A half-day tutorial on ColdFront will be held at PEARC, covering installation, configuration, customization, and plugin development. Dori also mentioned waiting for feedback on a proposed Birds of a Feather session, which would be an interactive user group meeting focused on use cases and questions rather than presentations. Registration for PEARC is now open.  </p></div>
 
 
 
