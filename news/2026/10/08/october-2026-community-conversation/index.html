@@ -16,6 +16,8 @@
         <link rel="prev" href="../../../08/15/september-2026-community-conversation/">
       
       
+        <link rel="next" href="../../28/december-2026-community-conversation/">
+      
       
       <link rel="icon" href="../../../../../assets/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
@@ -893,7 +895,7 @@
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8m0-18a10 10 0 0 1 10 10 10 10 0 0 1-10 10C6.47 22 2 17.5 2 12A10 10 0 0 1 12 2m.5 5v5.25l4.5 2.67-.75 1.23L11 13V7z"/></svg>
                           <span class="md-ellipsis">
                             
-                              1 min read
+                              3 min read
                             
                           </span>
                         </div>
@@ -915,6 +917,83 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#quick-recap" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quick Recap
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Summary">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#coldfront-community-conversation-october-2026" class="md-nav__link">
+    <span class="md-ellipsis">
+      ColdFront Community Conversation October 2026
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nasa-coldfront-resource-management-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      NASA ColdFront Resource Management System
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#software-system-implementation-timeline" class="md-nav__link">
+    <span class="md-ellipsis">
+      Software System Implementation Timeline
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#slurm-analytics-integration-decision" class="md-nav__link">
+    <span class="md-ellipsis">
+      Slurm Analytics Integration Decision
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#coldfront-implementation-and-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      ColdFront Implementation and Features
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
           
         </div>
@@ -929,22 +1008,24 @@
 
 
 <div><h1 id="october-2026-community-conversation">October 2026 Community Conversation</h1>
-<p>This meeting will be held on Tuesday, October 13, 2026 at 11:30am ET  / 10:30am CT / 8:30am PT / 3:30pm GMT.  Monthly community meetings are convened over Zoom to discuss topics of interest.  Community members are encouraged to bring questions and ideas to share.  This month we're pleased to have Jeff Triplett and Tim Gregoire from NASA share how they architected considerable changes and new functionality in ColdFront without affecting the core code.  </p>
+<p>This meeting was held on Tuesday, October 13, 2026.  Monthly community meetings are convened over Zoom to discuss topics of interest.  Community members are encouraged to bring questions and ideas to share.  This month we were pleased to have Jeff Triplett and Tim Gregoire from NASA share how they architected considerable changes and new functionality in ColdFront without affecting the core code.  </p>
 <!-- more -->
 
-<p>They’ve created custom plug-ins for:</p>
-<p>•             LDAP management<br>
-•             Commercial license management<br>
-•             Lustre quotas &amp; usage mapping<br>
-•             Custom theming/branding<br>
-•             Priority access (“skip the line” to compute access for time critical analysis work)<br>
-•             Project management - additional features for onboarding/offboarding/archiving projects<br>
-•             Slurm metrics<br>
-•             User storage - monitor quotas on NFS and archive storage<br>
-•             Workstation manager - track and assign engineering workstations, manage access rights to these resources<br>
-•             Reporting - comprehensive reporting engine for users, groups, permissions, audits, compute and storage usage, license usage, etc<br>
-•             Cost center - cost calculations, chargebacks, forecasting. Covers actual usage by unit and fractional usage  </p>
-<p>If you have not already registered, please do so <a href="https://buffalo.zoom.us/meeting/register/4rY9XTVmRxG6LMi-L_a8jw">here</a> to get access to the Zoom link.</p></div>
+<h2 id="quick-recap">Quick Recap</h2>
+<p>This was the October 2026 ColdFront Community Conversation where Jeff and Tim from NASA presented their extensive customization of ColdFront to meet their specific HPC lab needs. They demonstrated how they developed 15 custom plugins over two years to transform ColdFront into a comprehensive resource management system for their NASA lab supporting 90 projects across human spaceflight programs. The presentation covered their implementation of project codes, storage quotas, LDAP group management, licensing tracking, and reporting capabilities, all while staying within the core ColdFront architecture without modifying the underlying code. The system significantly reduced their ticket volume by two-thirds and provided users with self-service capabilities for common requests like changing login shells and managing Bash RC files. The discussion included questions about their approach to Slurm data integration, GPU and CPU hour tracking, and the generation of project codes, with participants expressing interest in similar implementations at their own sites.
+.</p>
+<p><div class="video-container"><iframe src="https://www.youtube.com/embed/9l98rtdc5Vk?si=oKbzqQprQbUAsi1p" style="position:relative;width:100%;height:22.172vw" frameborder="0" allowfullscreen alt="type:video"></iframe></div></p>
+<h2 id="summary">Summary</h2>
+<h3 id="coldfront-community-conversation-october-2026">ColdFront Community Conversation October 2026</h3>
+<p>Dori Sajdak welcomed attendees to the October 2026 ColdFront Community Conversation and introduced the co-hosts Jeff and Tim from NASA. She explained that the meeting would be casual, allowing participants to ask questions about the software or share their experiences. The main focus of the discussion was set to be on how Jeff and Tim had implemented significant features in ColdFront for their use cases without modifying the core code.</p>
+<h3 id="nasa-coldfront-resource-management-system">NASA ColdFront Resource Management System</h3>
+<p>Tim demonstrated their customized ColdFront environment that manages resources for NASA's human spaceflight programs across two HPC clusters supporting 90 different projects. The team developed 15 custom plugins over two months to extend ColdFront's functionality, including project management, storage quotas, LDAP group control, and licensing management. The system provides users with a single interface to manage compute allocations, storage, licensing, and access controls, while also offering administrative tools for monitoring and reporting that has significantly improved lab operations and resource management.</p>
+<h3 id="software-system-implementation-timeline">Software System Implementation Timeline</h3>
+<p>The team discussed the implementation timeline for a new software system, with Jeff estimating it would take less time than their previous year-long process. Raminder expressed interest in integrating SLURM data, particularly for handling CPUs and GPUs, and mentioned their team's work on standardizing usage through a "S-Total" model based on resource consumption. John offered to share a Python script that processes SLURM logs more efficiently than XDMOD, which Raminder confirmed would be sent to Claire for review.</p>
+<h3 id="slurm-analytics-integration-decision">Slurm Analytics Integration Decision</h3>
+<p>Jeff explained that the decision to integrate Slurm analytics directly into ColdFront rather than using external tools like XDMod was driven by the goal of creating a one-stop shop for users and PIs to access all necessary lab functions and information. The choice was influenced by both end-user experience considerations and the ease of development integration with ColdFront, as well as the need for a generic system that could serve current and future needs around usage quotas and reporting.</p>
+<h3 id="coldfront-implementation-and-features">ColdFront Implementation and Features</h3>
+<p>The meeting focused on ColdFront's implementation and features, particularly its use of Lustre project quotas and file system integrations. Jeff and Tim explained how they handle project codes across different systems, with project codes starting at one and incrementing to avoid overlap. They discussed how user requests are processed through a GitLab ticketing system, with changes being made in batches to maintain system stability. The team reported that these automated processes have reduced ticket volume by two-thirds. Jeff announced that they will be presenting at Supercomputing in November, including a panel discussion and presentation at the NASA booth. The next meeting was scheduled for November 10<sup>th</sup>, though its status may change due to the Supercomputing conference.</p></div>
 
 
 
